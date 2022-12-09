@@ -1,0 +1,21 @@
+nav {
+  position: fixed;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 80px;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 20px #d9d9d9;
+  z-index: 99;
+}
+.logo {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.7rem;
+}
+.logo > i {
+  color: #5ed3f3;
+}

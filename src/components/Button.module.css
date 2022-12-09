@@ -1,0 +1,11 @@
+.btnStyle {
+  all: unset;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: #fee102;
+  cursor: pointer;
+  transition: transform 0.1s linear;
+}
+.btnStyle:hover {
+  transform: scale(1.1);
+}

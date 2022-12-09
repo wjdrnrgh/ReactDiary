@@ -1,0 +1,68 @@
+.container {
+  margin: 80px auto 0;
+  padding: 5rem 1rem 0;
+  max-width: 1200px;
+  min-height: 100vh;
+}
+.formWrap {
+  position: relative;
+}
+.formWrap > form {
+  box-shadow: inset 0px 0px 10px #d9d9d9;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+.controller {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.formItem {
+  margin-bottom: 3rem;
+}
+label {
+  cursor: pointer;
+}
+input,
+textarea {
+  font-family: "Chosunilbo_myungjo";
+  font-weight: 600;
+  all: unset;
+  font-size: 0.9rem;
+  width: 100%;
+  word-break: break-all;
+}
+textarea {
+  height: 5rem;
+}
+.contents {
+  margin-top: 2rem;
+}
+.listItem {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px #d9d9d9, -10px -10px 40px #ffffff;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  min-height: 200px;
+  background-color: #ffffff;
+}
+.listInfo {
+  margin-bottom: 2rem;
+}
+.listTitle {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+.listDate {
+  font-size: 0.9rem;
+}
+.listContents {
+  flex: 1;
+}
+
+.commentForm {
+  margin: 1rem 0;
+}
